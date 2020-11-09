@@ -53,7 +53,7 @@ namespace GetWeightVersion3.UI
 
 
         }
-
+      
         private void button2_Click(object sender, EventArgs e)
         {
             Close();
@@ -144,6 +144,7 @@ namespace GetWeightVersion3.UI
             }
             this.oldid = emp.Name;
             this.oldcode = emp.Code;
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -215,5 +216,18 @@ namespace GetWeightVersion3.UI
 
         }
     }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            foreach(Control c in this.Controls)
+            {
+                if (c is TextBox)
+                {
+                    (c as TextBox).Clear();
+                }
+            }
+            comboBox1.Enabled = true;
+         
+        }
     }
 }

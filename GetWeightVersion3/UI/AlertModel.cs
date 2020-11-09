@@ -7,15 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace GetWeightVersion3.UI
 {
+
+
     public partial class AlertModel : Form
     {
+       
+
         public AlertModel()
         {
             InitializeComponent();
         }
+        WMPLib.WindowsMediaPlayer player = new WMPLib.WindowsMediaPlayer();
         private string message;
 
         public string Message
@@ -80,7 +86,9 @@ namespace GetWeightVersion3.UI
                     action = Action.Close;
                     break;
                 case Action.Start:
-
+                   
+                   
+                   
                     timer1.Interval = 1;
                     this.Opacity += 0.1;
                     if (this.x < this.Location.X)
@@ -108,7 +116,7 @@ namespace GetWeightVersion3.UI
                     {
                         base.Close();
                     }
-
+                    player.controls.stop();
                     break;
             }
 
@@ -118,6 +126,20 @@ namespace GetWeightVersion3.UI
         {
             timer1.Interval = 1;
             action = Action.Close;
+        }
+
+        private void AlertModel_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                player.URL = "Music/intuition-561.mp3";
+                player.controls.play();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
 

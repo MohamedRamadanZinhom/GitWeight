@@ -78,7 +78,7 @@
             // txtcarno
             // 
             this.txtcarno.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtcarno.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtcarno.BackColor = System.Drawing.Color.White;
             this.txtcarno.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtcarno.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcarno.ForeColor = System.Drawing.Color.White;
@@ -106,7 +106,7 @@
             // txtcarchar
             // 
             this.txtcarchar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtcarchar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtcarchar.BackColor = System.Drawing.Color.White;
             this.txtcarchar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtcarchar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcarchar.ForeColor = System.Drawing.Color.White;
@@ -413,7 +413,7 @@
             // txtemp
             // 
             this.txtemp.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtemp.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtemp.BackColor = System.Drawing.Color.White;
             this.txtemp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtemp.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtemp.ForeColor = System.Drawing.Color.White;
@@ -439,7 +439,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(60)))), ((int)(((byte)(65)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(933, 435);
             this.ControlBox = false;
             this.Controls.Add(this.label10);

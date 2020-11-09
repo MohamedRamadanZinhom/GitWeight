@@ -85,3 +85,5 @@ D:\Train Programing\Version of projects\getweight\4\GetWeightVersion3\GetWeightV
 D:\Train Programing\Version of projects\getweight\4\GetWeightVersion3\GetWeightVersion3\obj\Debug\GetWeightVersion3.UI.SignUp.resources
 D:\Train Programing\Version of projects\getweight\4\GetWeightVersion3\GetWeightVersion3\obj\Debug\GetWeightVersion3.UI.Statistics.resources
 D:\Train Programing\Version of projects\getweight\4\GetWeightVersion3\GetWeightVersion3\obj\Debug\GetWeightVersion3.csproj.GenerateResource.Cache
+D:\Train Programing\Version of projects\getweight\4\GetWeightVersion3\GetWeightVersion3\obj\Debug\Interop.WMPLib.dll
+D:\Train Programing\Version of projects\getweight\4\GetWeightVersion3\GetWeightVersion3\obj\Debug\GetWeightVersion3.csproj.ResolveComReference.cache
